@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: violet;
+    height: 100%;
+}
+.container{
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    min-width: 300px;
+    min-height: 70px;
+    top: 50%;
+    left: 50%;
+    border-radius: 4px;
+}
+#todolist{
+    position: relative;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+#todolist input{
+    position: relative;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#todolist input:focus{
+    border-color: blueviolet;
+    outline: none;
+}
+#todolist button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: brown;
+    cursor: pointer;
+}
+#list{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.task{
+    background-color: white;
+    height: 60px;
+    padding: 20px 5px;
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.task span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+}
+.task button{
+    background-color: blue;
+    color: aliceblue;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
+.completed{
+    text-decoration: line-through;
+}

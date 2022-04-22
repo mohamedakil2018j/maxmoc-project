@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    background-color: rebeccapurple;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+li{
+    list-style: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    transition: 2s;
+    position: absolute;
+}
+a:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+
